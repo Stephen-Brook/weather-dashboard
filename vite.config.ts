@@ -40,4 +40,9 @@ export default defineConfig({
       },
     },
   },
+  server: {
+    port: 3005,     // Your new dev port
+    open: true,     // Optional: automatically open browser
+    host: true      // Optional: allow LAN access
+  },
 });
